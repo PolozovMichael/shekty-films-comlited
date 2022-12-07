@@ -37,5 +37,5 @@ video::-webkit-media-controls-enclosure {
     pointer-events: none;
 }
 video {
-    pointer-events: none;
+    pointer-events: none !important;
 }
