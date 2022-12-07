@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    -webkit-overflow-scrolling: touch !important;
+}
+
+video::-webkit-media-controls,
+video::-webkit-media-controls-start-playback-button,
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-panel,
+video::-webkit-media-controls-container,
+video::-webkit-media-controls-overlay-play-button,
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+    -webkit-appearance: none;
+    appearance: none;
+    opacity: 0 !important;
+    pointer-events: none;
+}
+video {
+    pointer-events: none;
+}
